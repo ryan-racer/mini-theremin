@@ -1,0 +1,78 @@
+(footprint "Touch_Pad_30x30mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 18.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ea94fbf9-fbb0-40d0-9932-cd8ea75fd5ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Touch_Pad_30x30mm"
+		(at 0 20 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2d0045ef-a977-496f-8d5d-a2d2363a2fd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90b57067-29f0-4546-94ee-55a43b8a2eb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a25a780-62d1-4689-88a8-61e2043f11ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 21.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2d351c9d-bde8-454e-a13a-fa0f5a055d0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 30 30)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(clearance 1)
+		(uuid "26f7b8be-bcd1-4305-abc8-0d6efa4be988")
+	)
+	(embedded_fonts no)
+)

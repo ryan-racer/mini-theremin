@@ -1,0 +1,14 @@
+# KiCad backups
+Theremin-backups/
+
+# OS files
+.DS_Store
+
+# KiCad lock files
+*.lck
+
+# KiCad cache
+fp-info-cache
+
+# Original PDF with names
+PCB_Quinlivan_Hardy.pdf
