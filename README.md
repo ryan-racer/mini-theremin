@@ -6,10 +6,6 @@ A Mini-Theremin PCB designed as part of an electronics course project. A theremi
 
 The Mini-Theremin uses a copper touch pad as one half of a capacitor. When you bring your hand near or touch the pad, you change the system's capacitance, which alters the oscillation frequency of a Schmitt Trigger oscillator built around an LM358 op-amp. The oscillator output drives a 2N7000 MOSFET that switches a speaker on and off at the oscillation frequency, producing an audible tone. Moving your hand closer to the pad lowers the pitch; moving it away raises it.
 
-## Circuit Schematic
-
-![Schematic](images/schematic.png)
-
 ## 3D Board View
 
 ![3D Front](images/3d_front.png)
